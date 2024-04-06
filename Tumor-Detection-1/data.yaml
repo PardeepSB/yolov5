@@ -1,0 +1,15 @@
+names:
+- glioma
+- meningioma
+- notumor
+- pituitary
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: tumor-detection-uabpm
+  url: https://universe.roboflow.com/lab4-sigxy/tumor-detection-uabpm/dataset/1
+  version: 1
+  workspace: lab4-sigxy
+test: ../test/images
+train: Tumor-Detection-1/train/images
+val: Tumor-Detection-1/valid/images
